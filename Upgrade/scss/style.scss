@@ -1,0 +1,67 @@
+/* Coolors Exported Palette - coolors.co/ffdda1-ffd151-f8c537-edb230-e77728 */
+
+/* HSL */
+$color1: hsla(38%, 100%, 82%, 1);
+$color2: hsla(44%, 100%, 66%, 1);
+$color3: hsla(44%, 93%, 59%, 1);
+$color4: hsla(41%, 84%, 56%, 1);
+$color5: hsla(25%, 80%, 53%, 1);
+
+/* RGB */
+$color1: rgba(255, 221, 161, 1);
+$color2: rgba(255, 209, 81, 1);
+$color3: rgba(248, 197, 55, 1);
+$color4: rgba(237, 178, 48, 1);
+$color5: rgba(231, 119, 40, 1);
+
+.header{
+	background-color: $color4;
+}
+
+.slogan_bg {
+	background-color: $color2;
+}
+
+.form-control {
+	height: 30px ;
+	width: 150px;
+}
+
+@-webkit-keyframes greenPulse {
+  from { background-color: #749a02; -webkit-box-shadow: 0 0 9px #333; }
+  50% { background-color: #91bd09; -webkit-box-shadow: 0 0 18px #91bd09; }
+  to { background-color: #749a02; -webkit-box-shadow: 0 0 9px #333; }
+}
+
+.green.button {
+  -webkit-animation-name: greenPulse;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  border:none;
+}
+
+.button2{
+	background-color: $color4;
+	border: none;
+	color: black;
+  
+}
+.button2:hover{
+  -webkit-animation-name: greenPulse;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  cursor: pointer;
+}
+
+.login{
+	cursor:pointer;
+}
+
+.logo_size{
+	height: 10%;
+	width: 10%;
+}
+
+.footer{
+  background-color: $color1;
+}
