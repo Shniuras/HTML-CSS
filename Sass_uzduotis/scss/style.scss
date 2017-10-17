@@ -1,0 +1,99 @@
+/* Coolors Exported Palette - coolors.co/ef3b39-2f4858-33658a-86bbd8-f15924 */
+
+/* HSL */
+$color1: hsla(1%, 85%, 58%, 1);
+$color2: hsla(203%, 30%, 26%, 1);
+$color3: hsla(206%, 46%, 37%, 1);
+$color4: hsla(201%, 51%, 69%, 1);
+$color5: hsla(16%, 88%, 54%, 1);
+
+/* RGB */
+$color1: rgba(239, 59, 57, 1);
+$color2: rgba(47, 72, 88, 1);
+$color3: rgba(51, 101, 138, 1);
+$color4: rgba(134, 187, 216, 1);
+$color5: rgba(241, 89, 36, 1);
+
+/* Variables */
+$text-color: #F0FFF0;
+$lightblue: #E0FFFF;
+
+.header_bg_color {
+	background-color: $color2;
+	color: $text-color;
+}
+
+.bellow_hd_bg_color{
+	background-color: $lightblue;
+}
+
+.footer_bg_color {
+	background-color: $text-color;
+}
+
+.portfolio_bg_color{
+	background-color: $color4;
+}
+
+.only_text_bg_color {
+	background-color: $color3;
+	color: $text-color;
+}
+
+.float_right{
+	float: right;
+}
+
+.float_left{
+	float: left;
+}
+
+.p{
+	padding: 5%
+}
+
+.m{
+	margin: 5%;
+}
+
+.button{
+	background-color: $color2;
+	border:none;
+	color: $text-color;
+}
+
+.button:hover{
+	background: $color5;
+}
+
+.button2{
+	background-color: $color5;
+	border:none;
+
+
+}
+
+.button2:hover{
+	background: $color5;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Chewy');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+.logo{
+	font-family: Chewy;
+	font-size: 50px;
+}
+
+.slogan{
+	font-family: ubuntu;
+	font-size: 25px;
+}
+
+.portfolio{
+	font-size: 30px;
+}
+
+.text-size{
+	font-size: 75%;
+}

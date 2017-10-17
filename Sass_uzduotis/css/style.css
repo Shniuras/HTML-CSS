@@ -1,0 +1,99 @@
+/* Coolors Exported Palette - coolors.co/ef3b39-2f4858-33658a-86bbd8-f15924 */
+/* HSL */
+/* RGB */
+/* Variables */
+@import url("https://fonts.googleapis.com/css?family=Chewy");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+/* line 21, C:/Users/Seimur/Documents/GitHub/Sass_uzduotis/scss/style.scss */
+.header_bg_color {
+  background-color: #2f4858;
+  color: #F0FFF0;
+}
+
+/* line 26, C:/Users/Seimur/Documents/GitHub/Sass_uzduotis/scss/style.scss */
+.bellow_hd_bg_color {
+  background-color: #E0FFFF;
+}
+
+/* line 30, C:/Users/Seimur/Documents/GitHub/Sass_uzduotis/scss/style.scss */
+.footer_bg_color {
+  background-color: #F0FFF0;
+}
+
+/* line 34, C:/Users/Seimur/Documents/GitHub/Sass_uzduotis/scss/style.scss */
+.portfolio_bg_color {
+  background-color: #86bbd8;
+}
+
+/* line 38, C:/Users/Seimur/Documents/GitHub/Sass_uzduotis/scss/style.scss */
+.only_text_bg_color {
+  background-color: #33658a;
+  color: #F0FFF0;
+}
+
+/* line 43, C:/Users/Seimur/Documents/GitHub/Sass_uzduotis/scss/style.scss */
+.float_right {
+  float: right;
+}
+
+/* line 47, C:/Users/Seimur/Documents/GitHub/Sass_uzduotis/scss/style.scss */
+.float_left {
+  float: left;
+}
+
+/* line 51, C:/Users/Seimur/Documents/GitHub/Sass_uzduotis/scss/style.scss */
+.p {
+  padding: 5%;
+}
+
+/* line 55, C:/Users/Seimur/Documents/GitHub/Sass_uzduotis/scss/style.scss */
+.m {
+  margin: 5%;
+}
+
+/* line 59, C:/Users/Seimur/Documents/GitHub/Sass_uzduotis/scss/style.scss */
+.button {
+  background-color: #2f4858;
+  border: none;
+  color: #F0FFF0;
+}
+
+/* line 65, C:/Users/Seimur/Documents/GitHub/Sass_uzduotis/scss/style.scss */
+.button:hover {
+  background: #f15924;
+}
+
+/* line 69, C:/Users/Seimur/Documents/GitHub/Sass_uzduotis/scss/style.scss */
+.button2 {
+  background-color: #f15924;
+  border: none;
+}
+
+/* line 76, C:/Users/Seimur/Documents/GitHub/Sass_uzduotis/scss/style.scss */
+.button2:hover {
+  background: #f15924;
+}
+
+/* line 83, C:/Users/Seimur/Documents/GitHub/Sass_uzduotis/scss/style.scss */
+.logo {
+  font-family: Chewy;
+  font-size: 50px;
+}
+
+/* line 88, C:/Users/Seimur/Documents/GitHub/Sass_uzduotis/scss/style.scss */
+.slogan {
+  font-family: ubuntu;
+  font-size: 25px;
+}
+
+/* line 93, C:/Users/Seimur/Documents/GitHub/Sass_uzduotis/scss/style.scss */
+.portfolio {
+  font-size: 30px;
+}
+
+/* line 97, C:/Users/Seimur/Documents/GitHub/Sass_uzduotis/scss/style.scss */
+.text-size {
+  font-size: 75%;
+}
+
+/*# sourceMappingURL=../css/style.map */
