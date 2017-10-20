@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: grey;
+	padding: 2px;
+}
+
+.pavadinimas {
+	color: white;
+	display: inline-block;
+	margin: 50px;
+	font-family: Lobster;
+}
+
+
+.flag {
+	float:right;
+	border: 3px solid white;
+	margin: 45px;
+	display: inline-block;
+}
+
+.geltona {
+	background-color: yellow;
+	height: 20px;
+	width: 100px;
+}
+
+.zalia {
+	background-color: green;
+	height: 20px;
+	width: 100px;
+		
+}
+
+.raudona {
+	background-color: red;
+	height: 20px;
+	width: 100px;
+}
+
+.background {
+	background-image: url(http://eskipaper.com/images/woods-wallpaper-hd-1.jpg);
+}
+
+.main{
+	background-color: black;
+	color: white;
+	background-color: rgb(0, 50, 0);
+	height: 80%;
+	margin: 0 5%;
+}
+
+h2 {
+	font-family: Lobster;
+}
+
+.textphoto {
+	height:200px; 
+	width:200px;
+	float: right;
+	margin-right: 20px;
+	border: 2px solid green;
+}
+
+.miestai {
+	font-family: Lobster;
+	width: 150px;
+	height: 150px;
+	margin: 0 5%;
+	display: inline-block;
+}
+
+.statistika {
+	font-family: Lobster;
+	height: 150px;
+	width: 150px;
+	float: right;
+	display: inline-block;
+	margin: 0 5%;
+}
+
+li {
+	font-family: times new roman;
+}
+
+.nuotrauka img{
+	height: 50%;
+	width: 48%;
+	margin: 0 5px;
+	float: left;
+	display: inline-block;
+}
+
+.nuotrauka2 img{
+	height: 50%;
+	width: 48%;
+	margin: 0 5px;
+	float: right;
+	display: inline-block;
+}
+
+.clear_both{
+	clear: both;
+}
+
+footer {
+	text-align: center;
+	clear: both;
+	background-color: yellow
+}
+
+@media screen and (max-width: 600px) {
+
+	header {
+		background-color: lightgrey;
+		padding: 3%;
+	}
+	.pavadinimas {
+		color: green;
+		display: inline-block;
+		margin: 2px;
+	}
+	.flag {
+		float:right;
+		border: none;
+		margin: 2px;
+		display: inline-block;
+	}
+	.geltona {
+		background-color: yellow;
+		height: 15px;;
+		width: 75px;
+	}
+	.zalia {
+		background-color: green;
+		height: 15px;
+		width: 75px;	
+	}
+	.raudona {
+		background-color: red;
+		height: 15px;
+		width: 75px;
+	}
+	.main{
+		color: white;
+		background-color: rgb(0, 50, 0);
+		height: 80%;
+		margin: 0 5%;
+	}
+	.textphoto {
+		height:200px; 
+		width:200px;
+		float: none;
+		margin-right: 20px;
+		border: 2px solid green;
+	}
+	.miestai {
+		width: 50%;
+		height: 50%;
+		text-align: center;
+		padding: 5px;
+		float:left;
+	}
+	.statistika {
+		height: 50%;
+		width: 50%;
+		text-align: center;
+		float:left;
+		padding: 5px;
+	}
+	.nuotrauka img{
+		height: 80%;
+		width: 80%;
+		float:left;
+		margin: 5px;
+
+	}
+	.nuotrauka2 img{
+		height: 80%;
+		width: 80%;
+		margin: none;
+		float:left;
+		margin: 5px;
+	}
+}
